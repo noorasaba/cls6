@@ -1,0 +1,311 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*global css start*/
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+/*global css end*/
+
+.header{
+	width: 100%;
+	float: left;
+	padding: 10px 0px;
+	border-bottom: 1px solid #eee;
+}
+.header .navbar{
+	width: 100%;
+	display: block;
+}
+.header .navbar li{
+	list-style: none;
+	display: inline-block;
+}
+.header .navbar li a{
+	display: block;
+	font-size: 14px;
+	font-width: 400;
+	text-transform: capitalize;
+	margin: 20px 0px 0px 20px;
+	color: #0F2656;
+}
+
+.banner{
+	width: 100%;
+	float: left;
+	padding: 80px 0px 20px;
+	text-align: center;
+}
+.banner h1{
+	font-size: 52px;
+    line-height: 1.4em;
+    color: #0F2656;
+    font-weight: 700;
+    margin: 0px 0px 10px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+.banner h1 span{
+	color: #008AFF;
+}
+.banner p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color: #0F2656;
+	font-weight: 400;
+	margin: 0px 0px 20px;
+}
+.banner .banner-img{
+    width: 50%;
+}
+.successful{
+	width: 100%;
+	float: left;
+	padding: 40px 0px 30px;
+}
+.successful .left-box{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.successful .left-box h1{
+	font-size: 52px;
+    line-height: 1.4em;
+    color: #F15666;
+    font-weight: 700;
+    margin: 0px 15px 5px 0px;
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+.successful .left-box p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color: #0F2656;
+	font-weight: 400;
+	margin: 0px 15px 5px 0px;
+	}
+.successful .right-box{
+	width: 100%;
+	float: left;
+}
+.successful .right-box h1{
+	font-size: 47px;
+    line-height: 1.1em;
+    color: #0F2656;
+    font-weight: 700;
+    margin: 0px 0px 5px 15px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+.features{
+	width: 100%;
+	float: left;
+	padding: 40px 0px;
+}
+.features .inner-feature{
+	width: 76%;
+	padding: 50px 30px;
+}
+.features .inner-feature:hover{
+	background-color:#008AFF;
+}
+.features .inner-feature img{
+	width: 100%;
+	height: 180px;
+	margin: 0px 0px 10px;
+}
+.features .inner-feature h4{
+	font-size: 20px;
+	line-height: 1.4em;
+	color: #0F2656;
+	font-weight: 700;
+	margin: 0px 0px 10px;
+}
+.features .inner-feature p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color: #0F2656;
+	font-weight: 400;
+}
+.cl1{
+	background: #FDEBED;
+}
+.cl2{
+	background: #EBF9F4;
+}
+.cl3{
+	background: #FFF7E8;
+}
+/*apps pages css code start*/
+.apps p{
+	margin: 0px 0px 20px;
+}
+/*apps pages css code end*/
+/*docs css code start*/
+.docs{
+	width: 100%;
+	float: left;
+	padding: 40px 0px;
+}
+.docs p{
+	margin: 0px 0px 20px;
+}
+/*docs css code end*/
+/*landing css code start*/
+.landing{
+	width: 100%;
+	float: left;
+	padding: 40px 0px;
+}
+.landing p{
+	margin: 0px 0px 20px;
+}
+/*landing css code end*/
+/*pages css code start*/
+.landing{
+	width: 100%;
+	float: left;
+	padding: 40px 0px;
+}
+.landing p{
+	margin: 0px 0px 20px;
+}
+/*pages css code end*/
+.footer{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	background: #008AFF;
+}
+.footer p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color: #fofofo;
+	font-weight: 400;
+	text-align: center;
+}
+.footer p a{
+	text-decoration: none;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #fff;
+}
+/*css media queries start*/
+/* 
+  ##Device = Most of the Smartphones Mobiles Galaxy fold (Portrait)
+  ##Screen = B/w 279px to 319px
+*/
+
+@media (min-width: 279px) and (max-width: 319px){
+/* CSS */
+  /* CSS end*/
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+
+   /*global css start*/
+.container{
+	width: 90%;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.col-6{
+	width: 100%;
+	float: left;
+}
+.col-4{
+	width: 100%;
+	float: left;
+}
+.logo{
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+.features {
+    width: 100%;
+    float: left;
+    padding: 40px 0px;
+    margin: 10px 0px 10px 13px;
+}
+/*global css end*/
+  /* CSS end*/
+  
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  /* CSS end*/
+  
+}
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  /* CSS end*/
+  
+}
+/*css media queries end*/
